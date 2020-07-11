@@ -9,8 +9,7 @@ compile_sass = true
 highlight_code = true
 highlight_theme = "monokai"
 
-# Whether to build a search index to be used later on by a JavaScript library
-build_search_index = true
+# Generate atom.xml
 generate_feed = true
 
 # https://www.getzola.org/themes/after-dark/
@@ -23,7 +22,6 @@ languages = [
 ]
 
 taxonomies = [
-    # You can enable/disable feeds
     {name = "categories", feed = true},
     {name = "tags", feed = true},
 ]
