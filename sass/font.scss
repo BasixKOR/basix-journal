@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'Casadia Mono';
+  src: url('CascadiaMono.woff2')
+}
+
+$fonts: 'Casadia Mono', "D2Coding", "d2coding", Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif !important;
+
+body {
+  font-family: $fonts;
+}
+
+.hack, .hack blockquote, .hack code, .hack em, .hack h1, .hack h2, .hack h3, .hack h4, .hack h5, .hack h6, .hack strong {
+  font-family: $fonts;
+}
