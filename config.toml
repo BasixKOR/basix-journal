@@ -22,8 +22,10 @@ languages = [
 ]
 
 taxonomies = [
-    {name = "categories", feed = true},
-    {name = "tags", feed = true},
+    { name = "categories", feed = true, lang = "en" },
+    { name = "categories", feed = true, lang = "ko" },
+    { name = "tags", feed = true, lang = "en" },
+    { name = "tags", feed = true, lang = "ko" },
 ]
 
 [extra]
