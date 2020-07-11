@@ -13,4 +13,4 @@ ZOLA_VERSION = "0.11.0"
 # `$DEPLOY_PRIME_URL`.
 
 [context.deploy-preview]
-command = "git submodule update --init --recursive --depth=1 && zola build --base-url $DEPLOY_PRIME_URL"
+command = "git submodule update --init --recursive --depth=1 && zola build --drafts --base-url $DEPLOY_PRIME_URL"
