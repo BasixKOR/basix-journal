@@ -1,6 +1,9 @@
 # The URL the site will be built for
 base_url = "https://blog.basix.tech"
 
+title = "The Basix Journal"
+description = "Little notes written for myself"
+
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
 
