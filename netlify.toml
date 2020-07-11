@@ -1,7 +1,7 @@
 [build]
 base    = ""
 publish = "public"
-command = "zola build"
+command = "git submodule update --init --recursive --depth=1 && zola build"
 
 [build.environment]
 # Set the version name that you want to use and Netlify will automatically use it.
@@ -13,4 +13,4 @@ ZOLA_VERSION = "0.11.0"
 # `$DEPLOY_PRIME_URL`.
 
 [context.deploy-preview]
-command = "zola build --base-url $DEPLOY_PRIME_URL"
+command = "git submodule update --init --recursive --depth=1 && zola build --base-url $DEPLOY_PRIME_URL"
