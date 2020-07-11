@@ -39,3 +39,4 @@ after_dark_menu = [
     {url = "$BASE_URL/ko", name = "한국어"},
     {url = "https://basix.tech", name = "About me"},
 ]
+after_dark_title = "The Basix Journal"
