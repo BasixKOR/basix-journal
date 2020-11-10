@@ -35,9 +35,11 @@ collections:
       - label: Tags
         name: taxonomies.tags
         widget: list
+        i18n: true
       - label: Categories
         name: taxonomies.categories
         widget: list
+        i18n: true # FIXME change it to duplicate when Netlify CMS supports it
       - label: Body
         name: body
         widget: markdown
