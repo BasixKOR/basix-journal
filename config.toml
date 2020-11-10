@@ -40,3 +40,4 @@ after_dark_menu = [
     {url = "https://basix.tech", name = "About me"},
 ]
 after_dark_title = "The Basix Journal"
+author = "Basix"
